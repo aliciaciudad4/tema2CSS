@@ -1,0 +1,79 @@
+
+/*
+Los colores principales que utilizamos son :
+#C02727 es un color rojo oscur, el cual utilizamos cómo color principal para los títulos
+#FFFFD3 es un color ocre claro ideal para el fondo
+
+Y un color rosa y un gris claro para usar cómo colores secundarios en tablas o rellenos, etc...
+#F4806D
+#F3F2B4
+*/
+
+body {
+  background-color: #FFFFD3;
+  font-family:Arial;
+}
+
+h1,h2,h3,h4,h5,h6 { /*aplicamos color a los títulos y al color de fondo.*/
+  color: #F3F2B4;
+  background-color: #C02727 ;
+}
+
+p,ol,ul {
+  font-size: 14px;
+}
+
+table, th, td { /*cambiamos el borde de la tabla por defecto y le aplicamos un color personalizado*/
+   border: 1px solid #F4806D;
+}
+
+th {  /*añadimos estilos a la cabecera de la tabla, cambiamos el color de la fuente y el color de fondo*/
+  color: #FFFFD3;
+  background-color: #F4806D ;
+}
+tr:nth-child(even){ /*aplicamos color de fondo a los hijos parejos de la linia*/
+  background-color: #F3F2B4;
+}
+
+a {
+  color: #658525;
+}
+
+a:hover {
+  color: red;
+}
+
+/*definimos los estilos de la cabecera
+*/
+header{
+  background-color: #C02727 ;
+}
+
+
+#logo { /*imagen de logo cabecera*/
+  width: 100px;
+  height: 100px;
+}
+
+.mayus{ /*lo aplicamosal span para poner el texto en mayúsculas*/
+  text-transform: uppercase;
+}
+
+/*definimos los estilos del container */
+
+.container {
+  padding: 20px;
+  background-color: white;
+}
+
+/*definimos los estilos del footer */
+
+footer{
+  background-color: #C02727 ;
+  padding: 20px;
+}
+
+footer p {
+  color: white;
+  text-align: center;
+}
